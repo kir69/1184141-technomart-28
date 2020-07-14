@@ -798,13 +798,13 @@ body {
 }
 
 .slide-1 {
-    background-image: url("../img/Slide-1.jpg");
+    background-image: url("../img/slide-1.jpg");
     width: 620px;
     height: 266px;
 }
 
 .slide-2 {
-    background-image: url("../img/Slide-2.jpg");
+    background-image: url("../img/slide-2.jpg");
     width: 620px;
     height: 266px;
 }
@@ -2076,7 +2076,7 @@ text-transform: uppercase;
     box-shadow: 0 20px 40px rgba(41, 52, 73, 0.75);
   }
   
-  .modal-cart-add__close {
+  .modal-cart-add-close {
     position: absolute;
     right: 9px;
     top: 10px;
