@@ -17,7 +17,7 @@
             </a>
           </div>  
           <form class="search-form" action="https://echo.htmlacademy.ru/courses" method="post">
-            
+            <label for="search"></label>
             <input type="search" name="search" id="search-field" placeholder="Поиск:">
               <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewbox="0 0 17 17"><path fill="#ffffff" 
               d="M17 15.586l-3.542-3.542A7.465 7.465 0 0 0 15 7.5 7.5 7.5 0 1 0 7.5 15c1.71 0 3.282-.579 4.544-1.542L15.586 17 17 15.586zM2
@@ -81,12 +81,20 @@
           <a class="promo-card-btn" href="#">Для стройки</a>
         </div>
         <section class="slider">
-          <div class=" visually-hidden slide slide-1">
-            <h2 class=" slide-title">Перфораторы</h2>
+          <input type="radio" name="slider-radio" id="slider-radio-1">
+          <input type="radio" name="slider-radio" id="slider-radio-2" checked>
+          <section class="slider-control">
+            <label class="slider-control-btn-1" for="slider-radio-1"></label>
+            <label class="slider-control-btn-2" for="slider-radio-2"></label>
+            <label class="slider-left-arrow" for="slider-radio-1"></label>
+            <label class="slider-right-arrow" for="slider-radio-2"></label>
+          </section>
+          <div class="slide slide-1">
+            <h2 class="slide-title">Перфораторы</h2>
             <p>Настоящие мужские игрушки</p>
             <a class="slide-btn" href="catalog.html">Открыть каталог</a>
           </div>
-          <div class=" slide slide-2">
+          <div class="visually-hidden slide slide-2">
             <h2 class="slide-title">Дрели</h2>
             <p>Соседям на радость</p>
             <a class="slide-btn" href="catalog.html">Открыть каталог</a>
@@ -341,8 +349,8 @@
               <input type="email" name="e-mail" id="e-mail-field" placeholder="email@example.com">
             </div>
           </div>  
-          <p>Текст письма:</p>
-          <textarea name="text" placeholder="В свободной форме"></textarea>
+          <label class="feedback-text" for="text"> Текст письма:</label>
+          <textarea name="text" id="text" placeholder="В свободной форме"></textarea>
           </div>
           <div class="btn-background">
             <button type="submit">Отправить</button>
