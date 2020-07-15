@@ -383,6 +383,13 @@
         </div>
       </form>
     </div>
+    <script>
+      var bookmarksRed = document.querySelector(".add-bookmarks");
+      var bookmarks = document.querySelector(".bookmarks");
+      bookmarksRed.addEventListener("click", function (evt) {
+      evt.preventDefault();
+      bookmarks.classList.add("red-fill");})
+    </script>
   </body>   
     
 </html>
