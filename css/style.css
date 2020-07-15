@@ -60,8 +60,8 @@ body {
 .header {
 	padding-bottom: 60px;
 	font-family: "Cuprum", Arial, sans-serif;
-	font-size: 17px;
-	line-height: 18px;
+	font-size: 18px;
+	line-height: 24px;
 	color: #ffffff;
 	background-color: #f4f7f9;
 }
@@ -152,8 +152,8 @@ body {
 .header-top a {
 	display: block;
 	position: relative;
-	padding-top: 12px;
-	padding-bottom: 12px;
+	padding-top: 9px;
+	padding-bottom: 9px;
 }
 
 .header-top a:first-child {
@@ -166,8 +166,8 @@ body {
 }
 
 .bookmarks {
-	padding-right: 28px;
-	padding-left: 44px;
+	padding-right: 24px;
+	padding-left: 43px;
 }
 
 .bookmarks::before {
@@ -184,8 +184,8 @@ body {
 }
 
 .basket {
-	padding-left: 50px;
-	padding-right: 31px;
+	padding-left: 49px;
+	padding-right: 26px;
 }
 
 .basket-drop {
@@ -245,8 +245,8 @@ body {
 }
 
 .link-order {
-	padding-left: 20px;
-	padding-right: 22px;
+	padding-left: 19px;
+	padding-right: 16px;
 	background-color: #63a63e;
 }
 
@@ -261,14 +261,15 @@ body {
 
 .header-middle {
 	display: flex;
-	justify-content: flex-end;
+	justify-content: flex-start;
 	margin-top: 46px;
 	margin-bottom: 40px;
 }
 
 .title {
 	width: 197px;
-	margin: 0;
+    margin: 0;
+    margin-left: 30px;
 	margin-top: 3px;
 	font-style: italic;
 	font-size: 16px;
@@ -283,7 +284,9 @@ body {
 }
 
 .contacts-phone {
-	margin: 0;
+    margin: 0;
+    font-size: 21px;
+	line-height: 30px;
 }
 
 .contacts-phone a {
@@ -293,8 +296,7 @@ body {
 	padding-right: 49px;
 	padding-left: 71px;
 	padding-bottom: 8px;
-	font-size: 21px;
-	line-height: 21px;
+	
 	color: #ee3643;
 	border: solid 3px #ffffff;
 }
@@ -454,7 +456,7 @@ body {
 	position: relative;
 }
 
-.user-name-icon {
+.user-name-icon-1 {
 	position: absolute;
 	top: 13px;
 	left: 14px;
@@ -466,7 +468,7 @@ body {
 	left: 269px;
 }
 
-.link-user-icon:hover+.user-name-icon path,
+.user-name-link:hover+.user-name-icon-1,
 .user-name-link:hover+.user-name-logout path {
 	fill: #32425C;
 }
@@ -1381,7 +1383,8 @@ body {
 }
 
 .price-controls input {
-	width: 95px;
+    width: 95px;
+	padding: 0;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	text-align: center;
@@ -2374,3 +2377,6 @@ body {
 }
   
 
+.red-fill {
+	background-color: #EE3643;
+}
